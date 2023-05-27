@@ -7,7 +7,7 @@ public class Hyperpar {
         this.numero = numero;
     }
 
-    public boolean esHyperpar(long numero){
+    public static boolean esHyperpar(long numero){
 
             numero = Math.abs(numero);
             String num = String.valueOf(numero);
