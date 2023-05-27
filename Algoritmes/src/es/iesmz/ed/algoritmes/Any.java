@@ -2,13 +2,13 @@ package es.iesmz.ed.algoritmes;
 import java.util.ArrayList;
 
 public class Any {
-    long numero;
+    static long numero;
 
     public Any(long numero) {
-        this.numero = numero;
+        Any.numero = numero;
     }
 
-    public int digitsDiferents(){
+    public static int digitsDiferents(long numero){
         ArrayList<Character> numeros = new ArrayList<>();
        String cadena= String.valueOf(numero);
 
@@ -20,5 +20,4 @@ public class Any {
         }
         return numeros.size();
     }
-
 }
