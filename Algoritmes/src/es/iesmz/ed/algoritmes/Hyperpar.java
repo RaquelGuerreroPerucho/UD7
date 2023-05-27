@@ -9,10 +9,8 @@ public class Hyperpar {
 
     public boolean esHyperpar(long numero){
 
+            numero = Math.abs(numero);
             String num = String.valueOf(numero);
-            if(num.charAt(0)==45){
-                num= num.replace("-", "");
-            }
             for (int i = 0; i < num.length(); i++) {
                 if(num.charAt(i) % 2!=0){
                     return false;
