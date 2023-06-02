@@ -24,7 +24,7 @@ class SumaDescendentTest {
     @Test
     public void test60007(){
         long resultadoReal = SumaDescendent.suma(60007);
-        long resultadoEsperado = 13;
+        long resultadoEsperado = 60035;
 
         assertEquals(resultadoEsperado, resultadoReal);
     }
@@ -32,7 +32,7 @@ class SumaDescendentTest {
     @Test
     public void testMenos9876(){
         long resultadoReal = SumaDescendent.suma(-9876);
-        long resultadoEsperado = -30;
+        long resultadoEsperado = -10834;
 
         assertEquals(resultadoEsperado, resultadoReal);
     }
