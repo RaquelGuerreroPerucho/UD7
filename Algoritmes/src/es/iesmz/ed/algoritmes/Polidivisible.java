@@ -1,13 +1,27 @@
 package es.iesmz.ed.algoritmes;
 
+/**
+ * Clase con una variable long y una función para saber si es un numero polidivisible
+ */
+
 public class Polidivisible
 {
     private long numero;
+
+    /**
+     * Constructor.
+     * @param numero es el numero que se va a comprobar.
+     */
 
     public Polidivisible(long numero)
     {
         this.numero = numero;
     }
+
+    /**
+     * Funcion que devuelve true en caso de que el numero sea polidivisible..
+     * @return boolean
+     */
 
     public boolean esPolidivisible()
     {
