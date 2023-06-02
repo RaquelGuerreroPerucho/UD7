@@ -29,5 +29,11 @@ class SumaDescendentTest {
         assertEquals(resultadoEsperado, resultadoReal);
     }
 
+    @Test
+    public void testMenos9876(){
+        long resultadoReal = SumaDescendent.suma(-9876);
+        long resultadoEsperado = -30;
 
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
 }
